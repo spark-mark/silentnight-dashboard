@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      silentnight-dashboard remake
+    </title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- link to stylesheets -->
+     <link rel="stylesheet" href="dashboard.css">
+     <link rel="stylesheet" href="layout.css">
+  </head>
+  
+  <body>  
+    <section class="top-section">
+      <div class="date-container">
+      <h1 class="week-date">Today, Saturday</h1>
+      <h2 class="full-date">17th February 2024</h2></div>
+      <button class="calendar-button">
+      <img class="calendar-icon" src="icons/calendar.svg">
+      </button>
+    </section>
+    
+    <section class="sleep-stat-section">
+      <div class="sleep-circle-container">
+        <img class="sleep-circle" src="/images/sleep-circle.svg">
+      </div>
+      <div class="sleep-duration-container">
+        <div class ="duration-stats-column">
+          <h3 class="section-title">Duration</h3>
+          <div>
+            <h4>7hrs 34m</h4>
+            <div class="legend-container">
+              <div class="total-sleep-square"></div>
+              <p>Total Sleep</p>
+            </div>
+          </div>
+          <div>
+            <h4>23m</h4>
+            <div class="legend-container">
+              <div class="awake-time-square"></div>
+              <p>Awake</p>
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <div> <img src="/icons/clock.svg"></div>
+      </div>
+    </section>
+
+    <section class="sleep-position-and-audio-section">
+      <div class="sleep-position-container">
+        <h3 class="centered-title">Sleep Position</h3>
+        <div><img class="pillow-image" src="/images/head-face-right.png"></div>
+        <div class="sleep-position-data-outer-container">
+          <div class="sleep-position-data-container">
+            <h4>12%</h4>
+            <p>Left</p>
+          </div>
+          <img class="line-icon" src="/icons/line.svg">
+          <div class="sleep-position-data-container">
+            <h4>15%</h4>
+            <p>Middle</p>
+          </div>
+          <img class="line-icon" src="/icons/line.svg">
+          <div class="sleep-position-data-container">
+            <h4>73%</h4>
+            <p>Right</p>
+          </div>
+        </div>
+      </div>
+      <div class="sleep-audio-container">
+        <h3 class="centered-title">Audio Levels [dB]</h3>
+        <div class="graph-container">
+          <div class="y-axis">
+            <p>100</p>
+            <p>50</p>
+            <p>0</p>
+          </div>
+          <div class="x-axis-and-chart">
+            <img class="audio-level-chart" src="images/audio-level.svg">
+            <div class="x-axis">
+              <p>12 AM</p>
+              <p>2 AM</p>
+              <p>4 AM</p>
+              <p>6 AM</p>
+              <p>8 AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-section">
+      <div class="internal-rec-container">
+        <div class ="internal-rec-column">
+          <h3 class="section-title">Internal Rec</h3>
+          <div class="stat-container">
+            <h4>23°C</h4>
+            <p>Temperature</p>
+          </div>
+          <div class="stat-container">
+            <h4>25°C</h4>
+            <p>Feels Like</p>
+          </div>
+          <div class="stat-container">
+            <h4>324</h4>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div> <img src="/icons/thermometer.svg"></div>
+      </div>
+
+      <div class="sleep-quality-container">
+        <div class ="sleep-quality-column">
+          <h3 class="section-title">Sleep Quality</h3>
+          <div class="stat-container">
+            <h4>45dB</h4>
+            <p>Max Volume</p>
+          </div>
+          <div class="stat-container">
+            <h4>5%</h4>
+            <p>Max Room Brightness</p>
+          </div>
+          <div class="stat-container">
+            <h4>3 times</h4>
+            <p>Loud Noises Detected</p>
+          </div>
+        </div>
+        <div> <img src="/icons/moon.svg"></div>
+      </div>
+
+    </section>
+  </body>
+</html>

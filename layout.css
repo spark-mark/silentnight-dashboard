@@ -1,0 +1,33 @@
+@media (max-width: 520px) {
+  .sleep-circle {
+    min-width: 153px;
+  }
+}
+
+
+
+@media (min-width: 626px) {
+  .sleep-position-and-audio-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+
+  }
+
+  .graph-container {
+    margin-left: -5%;
+  }
+
+  .audio-level-chart {
+    margin: 0px 0px;
+  }
+
+  body {
+    margin: 42px 24px;
+  }
+
+  .h1 {
+    font-size: 32px;
+  }
+
+}
